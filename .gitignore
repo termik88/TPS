@@ -1,0 +1,5 @@
+# Игнорировать папку venv
+venv/
+
+# Игнорировать папку submission_files
+submission_files/
