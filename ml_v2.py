@@ -123,4 +123,4 @@ def executing_pipeline(parameters):
 if __name__ == '__main__':
    PipelineDecorator.run_locally()
    executing_pipeline(parameters)
-   PipelineDecorator().stop()
+   PipelineDecorator(name='TPS', project='TPS').stop()
